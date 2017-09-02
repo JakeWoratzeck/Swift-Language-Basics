@@ -40,7 +40,7 @@ if (deposits >= 100000000){
     print("Sorry you are so poor.")
 }
 
-var force = mass * acceleration
+var force: Float = mass * acceleration
 
 print("Force = \(force)")
 
@@ -54,13 +54,13 @@ if (lost && expensive){
 
 switch choice {
 case 1:
-    print("You chose 1")
+    print("You chose 1.")
     
 case 2:
-    print("You chose 2")
+    print("You chose 2.")
     
 case 3:
-    print("You chose 3")
+    print("You chose 3.")
     
 default:
     print("You made an unknown choice.")
@@ -68,7 +68,7 @@ default:
 
 print("\(integral) is an integral.")
 
-for i in 5...10{
+for i in 5...10 {
     print("i=\(i)")
 }
 
